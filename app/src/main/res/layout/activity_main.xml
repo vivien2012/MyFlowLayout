@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/tips_one" />
+
+    <com.vivien.flowlayout.MyFlowLayout
+        android:id="@+id/myflowlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/table_bg3"
+            android:text="Hello" />
+
+        <TextView
+            style="@style/table_bg3"
+            android:text="World" />
+
+        <TextView
+            style="@style/table_bg3"
+            android:text="vivien" />
+
+        <TextView
+            style="@style/table_bg3"
+            android:text="balibalibali" />
+
+        <TextView
+            style="@style/table_bg3"
+            android:text="studying" />
+
+        <TextView
+            style="@style/table_bg3"
+            android:text="i think i can" />
+
+    </com.vivien.flowlayout.MyFlowLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/tips_two" />
+
+    <com.vivien.flowlayout.MyFlowLayout2
+        android:id="@+id/myflowlayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

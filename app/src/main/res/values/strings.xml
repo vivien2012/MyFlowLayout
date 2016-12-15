@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyFlowLayout</string>
+    <string name="tips_one">如下所示，\n是简单的标签列表，点击提示位置</string>
+    <string name="tips_two">如下所示，\n是相当实用性更高的标签列表，\n长按标签出现在删除按钮，\n点击删除按钮，会删除这一项，\n刷新列表。</string>
+</resources>
